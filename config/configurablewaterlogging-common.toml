@@ -1,0 +1,31 @@
+#Explicit block IDs to make waterloggable.
+#Format: "namespace:block_id"
+#Example: "minecraft:stone", "create:brass_block"
+waterloggable_blocks = []
+#Block tags whose members should be waterloggable.
+#Format: "namespace:tag_name"
+#Example: "minecraft:fences", "minecraft:walls"
+waterloggable_tags = []
+#Blocks to explicitly EXCLUDE from waterlogging.
+#Overrides both waterloggable_blocks and waterloggable_tags.
+blacklist = []
+#If true, blocks that already support waterlogging natively
+#(e.g., vanilla slabs, stairs) will be skipped.
+#Set to false only if you want this mod to manage ALL waterlogging for listed blocks.
+skip_native_waterloggable = false
+
+[utility]
+	#Enable the /configurablewaterlogging (alias /cw) command
+	enable_commands = true
+	#Minimum permission level for /cw toggle (0=all, 2=ops, 4=owner)
+	# Default: 2
+	# Range: 0 ~ 4
+	command_permission_level = 2
+
+[debug]
+	#Enable verbose logging (block resolution details, state changes)
+	verbose_logging = false
+	#Log a warning when a configured block ID doesn't exist in the registry
+	warn_missing_blocks = true
+	#Log a warning when a configured tag has no member blocks
+	warn_empty_tags = true

@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:fried_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:blue_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"backpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"redomesticate:wayward_lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

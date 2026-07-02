@@ -1,0 +1,46 @@
+{
+  "mods": [
+    {
+      "modid": "defaultworldtype",
+      "version": "*"
+    },
+    {
+      "modid": "keybindspurger",
+      "version": "*"
+    },
+    {
+      "modid": "reeses_sodium_options",
+      "version": "*"
+    },
+    {
+      "modid": "sodium",
+      "version": "*"
+    },
+    {
+      "modid": "sodium_extra",
+      "version": "*"
+    }
+  ],
+  "files": [
+    {
+      "name": "DefaultWorldType-1.21-5.0.4.jar",
+      "sha256": "3cc1c09a78368025c435cf7c5c69cd2ceb2ef0c26355ad32d80939e7aad2d559"
+    },
+    {
+      "name": "KeybindsPurger-1.4.0-neoforge-1.21.1.jar",
+      "sha256": "e4e7842a26d11ea2470d23ab2600114b4bace9b74f6ea3478b933ceb24f2479b"
+    },
+    {
+      "name": "reeses-sodium-options-neoforge-2.2.0+mc1.21.1.jar",
+      "sha256": "b1d1948753aeb6a300716c9f0dd48cfa25cd1b0091bae5cb96d9df15ceee0752"
+    },
+    {
+      "name": "sodium-extra-neoforge-0.8.7+mc1.21.1.jar",
+      "sha256": "d116168ddbc2d6ba1bfcd6562ebedb5fc8df7b83771ac255dfb63085e6cc40f6"
+    },
+    {
+      "name": "sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar",
+      "sha256": "21f46a795137d7049a6736cea1e56837c633da532dd9fcb178363a8df771a4ea"
+    }
+  ]
+}

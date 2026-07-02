@@ -1,0 +1,15 @@
+["Overgearium Infusion"]
+	#Allow Overgearium to automatically treat normal weapons, shields, bows, crossbows, and armor as infusion targets.
+	#Items and tags in infusionWhitelist still work when this is false.
+	enableAutomaticEquipmentDetection = true
+	#Require automatically detected items to be damageable.
+	#Whitelist entries ignore this so modded equipment without normal durability can still be infused.
+	requireDamageableForAutomaticDetection = true
+	#Items or tags that can always receive Overgearium infusion unless blacklisted.
+	#Use item ids like 'minecraft:diamond_chestplate' or tags prefixed with '#', e.g. '#c:armors/chestplates'.
+	#Whitelist entries can include non-damageable modded equipment.
+	infusionWhitelist = []
+	#Items or tags that cannot receive Overgearium infusion.
+	#This blacklist wins over the whitelist.
+	#Use item ids like 'minecraft:elytra' or tags prefixed with '#', e.g. '#some_mod:excluded_gear'.
+	infusionBlacklist = []

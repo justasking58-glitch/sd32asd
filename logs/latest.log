@@ -1,0 +1,939 @@
+[01Jul2026 17:18:59.436] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.234, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[01Jul2026 17:18:59.439] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
+[01Jul2026 17:18:59.441] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
+[01Jul2026 17:18:59.718] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Jul2026 17:18:59.770] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/sd32asd/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[01Jul2026 17:19:00.117] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.234:server]
+[01Jul2026 17:19:00.139] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.234/neoforge-21.1.234-universal.jar]], reader: mod manifest]
+[01Jul2026 17:19:00.150] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "abridged-2.0.2-neoforge-21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alexsmobsup-0.2.6-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.162] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amendments-neoforge-1.21-2.1.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.165] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "antixray-neoforge-1.4.8+1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.168] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.173] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "backpacks-0.4.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.178] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bettersparsestructures-1.4.0.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.182] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "break_my_fall-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "caveore-1.21.1-4.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.194] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "citadelup-0.1.6-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.200] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Continents_26.1_v1.1.13.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.217] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.221] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21.1-3.8.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.227] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Cyberspace 4.1.1 (NF1.21.1).jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.231] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-ancient-city-overhaul-v2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.234] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-desert-temple-replacement-v1.2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-end-castle-standalone-v1.1 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.239] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-jungle-temple-replacement-v1.2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.242] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-nether-fortress-overhaul-v2.4 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.244] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-ocean-monument-replacement-v1.2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.246] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-pillager-outpost-overhaul-v2.2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.250] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-stronghold-overhaul-v2.1.f [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.252] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-swamp-hut-overhaul-v2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.255] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DnT-woodland-mansion-replacement-v1.2 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.262] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dungeons-and-taverns-v4.4.4 [NeoForge].jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.265] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dynamicsurroundings-neoforge-1.21.1-0.4.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.273] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "enderscape-neoforge-1.0.9+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.277] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "endrem-neoforge-1.21.X-6.0.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.283] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "exposure-neoforge-1.21.1-1.9.18.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.287] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.3.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.303] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.308] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flerovium-neoforge-1.21.1-1.1.1-all.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.315] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.321] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "guideme-21.1.16.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.326] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "incision-1.0.11-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.330] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.343.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.333] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "joyofpainting-1.21.1-NeoForge-1.0.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.345] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Kiwi-1.21.1-NeoForge-15.8.4.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.348] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-4.8.10+1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.354] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lexiconfig-neoforge-1.4.21-novel.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.358] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.7.12-neoforge-21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.369] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "little-big-redstone-1.9.0-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.374] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modwhitelist-1.21.1-2.0.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-neoforge-1.21.1-3.0.20.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.382] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "more_darkness-neoforge-1.21.1-1.0.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.385] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OpenLoader-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.394] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.403] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "patience-2.2.3.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.411] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.414] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puffish_biome_dither-1.0.0-1.21-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "redomesticate-neoforge-1.21.1-1.9.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.420] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reducedores-1.21.x-1.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.422] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-dynamic-lights-1.21.1-1.0.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.427] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.429] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sfcr-1.9.3+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.432] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "shortstacks-1.2.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.435] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.439] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SimpleDayLengthExtender-1.2.2-NeoForge-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.444] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simpleradio-neoforge-1.21.1-4.5.7.9.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SnowRealMagic-1.21.1-NeoForge-12.2.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Stony Cliffs FML v1.1.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-neoforge-1.21.1-3.7.4.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.479] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_1.21.x_v2.6.2.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.481] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Terralith_No_Structures_v1.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.489] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tesseract-api-neoforge-1.12.4-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.496] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tgu_hgd-1.0.6-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.500] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "toofast-1.21.0-0.4.3.6.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.504] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trimmed-neo-1.21-3.0.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "vista-neoforge-1.21.1-4.5.0.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.511] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voicechat-neoforge-1.21.1-2.6.20.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.513] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Voiceless Survival-1.21.1-neoforge-2.0.1.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.515] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "walkablerails-1.0.0+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:00.517] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/sd32asd/mods}, reader: mod manifest]
+[01Jul2026 17:19:01.376] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 44 dependencies adding them to mods collection
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "yumi-commons-core-1.0.0.jar" [parent: yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.2.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: Kiwi-1.21.1-NeoForge-15.8.4.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [parent: flerovium-neoforge-1.21.1-1.1.1-all.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.3.jar" [parent: sable-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.2.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234-universal.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json5-java-3.0.0.jar" [parent: apollib-1.1.5-neoforge-21.1.jar, locator: jarinjar]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.3.jar" [parent: mixinsquared-forge-0.3.3.jar, locator: jarinjar]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "apollib-1.1.5-neoforge-21.1.jar" [parent: abridged-2.0.2-neoforge-21.1.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "yumi-commons-collections-1.0.0.jar" [parent: yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: supplementaries-neoforge-1.21.1-3.7.4.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+acb05a3919.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.2.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spruceui-6.2.5+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.10+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.2.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "toml4j-0.7.2.jar" [parent: antixray-neoforge-1.4.8+1.21.1.jar, locator: jarinjar]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.10+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.1.4.jar" [parent: sable-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.379] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-api-4.8.10+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.10+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "yumi-commons-event-1.0.0.jar" [parent: yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.3.3.jar" [parent: vista-neoforge-1.21.1-4.5.0.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-4.8.10+1.21.1-neoforge.jar" [parent: lambdynamiclights-4.8.10+1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: flerovium-neoforge-1.21.1-1.1.1-all.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.2.2.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pridelib-1.2.4+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.10+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "tesseract-api-1.0.0.jar" [parent: tesseract-api-neoforge-1.12.4-1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[01Jul2026 17:19:01.382] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]
+[01Jul2026 17:19:01.382] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "mixinconstraints-1.0.7.jar" [parent: backpacks-0.4.2.jar, locator: jarinjar]
+[01Jul2026 17:19:01.387] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Abridged 2.0.2 (abridged)
+		Alex's Mobs Up 0.2.6 (alexsmobsup)
+		Amendments 1.21-2.1.2 (amendments)
+		AntiXray 1.4.8 (antixray)
+		Apollib 1.1.5 (apollib)
+		Architectury 13.0.8 (architectury)
+		Backpacks for dummies 0.4.2 (backpacks)
+		BetterSparseStructures 1.4.0.2 (bettersparsestructures)
+		Break My Fall 1.0.0 (break_my_fall)
+		caveore mod 4.0 (caveore)
+		Citadel Up 0.1.6 (citadelup)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Continents 1.1.13 (continents)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.0 (aeronautics_bundled)
+		Create Aeronautics 1.3.0 (aeronautics)
+		Create Offroad 1.3.0 (offroad)
+		Create Simulated 1.3.0 (simulated)
+		Cupboard mod 3.8 (cupboard)
+		Cyberspace 4.1.1 (cyberspace)
+		Dungeons and Taverns 1-v4.4.4 (mr_dungeons_andtaverns)
+		Dungeons and Taverns Ancient City Overhaul 1-v2 (mr_dungeons_andtavernsancientcityoverhaul)
+		Dungeons and Taverns Desert Temple Replacement 1-v1.2 (mr_dungeons_andtavernsdeserttemplereplacement)
+		Dungeons and Taverns End Castle Standalone 1-v1.1 (mr_dungeons_andtavernsendcastlestandalone)
+		Dungeons and Taverns Jungle Temple Replacement 1-v1.2 (mr_dungeons_andtavernsjungletemplereplacement)
+		Dungeons and Taverns Nether Fortress Overhaul 1-v2.4 (mr_dungeons_andtavernsnetherfortressoverhaul)
+		Dungeons and Taverns Ocean Monument Replacement 1-v1.2 (mr_dungeons_andtavernsoceanmonumentreplacement)
+		Dungeons and Taverns Pillager Outpost Overhaul 1-v2.2 (mr_dungeons_andtavernspillageroutpostoverhaul)
+		Dungeons and Taverns Stronghold Overhaul 1-v2.1.f (mr_dungeons_andtavernsstrongholdoverhaul)
+		Dungeons and Taverns Swamp Hut Overhaul 1-v2 (mr_dungeons_andtavernsswamphutoverhaul)
+		Dungeons and Taverns Woodland Mansion Replacement 1-v1.2 (mr_dungeons_andtavernswoodlandmansionreplacement)
+		Dynamic Surroundings 0.4.2 (dsurround)
+		End Remastered 6.0.2 (endrem)
+		Enderscape 1.0.9 (enderscape)
+		Exposure 1.9.18 (exposure)
+		Farmer's Delight 1.3.2 (farmersdelight)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flerovium 1.1.1 (flerovium)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
+		Forgified Fabric Renderer - Indigo 1.7.0+acb05a3919 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		GeckoLib 4 4.9.1 (geckolib)
+		GuideME 21.1.16 (guideme)
+		incision 1.0.11 (incision)
+		Joy of Painting 1.0.2 (joyofpainting)
+		Just Enough Items 19.27.0.343 (jei)
+		Kiwi Library 15.8.4+neoforge (kiwi)
+		LambDynamicLights 4.8.10+1.21.1 (lambdynlights)
+		LambDynamicLights (API) 4.8.10+1.21.1 (lambdynlights_api)
+		LambDynamicLights (Runtime) 4.8.10+1.21.1 (lambdynlights_runtime)
+		Lexiconfig 1.4.21-novel (lexiconfig)
+		Lithostitched 1.7.12 (lithostitched)
+		Little Big Redstone 1.9.0-1.21.1 (little_big_redstone)
+		Minecraft 1.21.1 (minecraft)
+		modwhitelist 1.21.1-2.0.0 (modwhitelist)
+		Moonlight Lib 1.21.1-3.0.20 (moonlight)
+		More Darkness 1.0.0 (more_darkness)
+		NeoForge 21.1.234 (neoforge)
+		OpenLoader 21.1.5 (openloader)
+		Particle Rain 4.0.0-beta.10 (particlerain)
+		Patience 2.2.3 (patience)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		PrickleMC 21.1.11 (prickle)
+		Pride Lib 1.2.4+1.21.1 (pride)
+		Pufferfish's Biome Dither 1.0.0 (puffish_biome_dither)
+		Redomesticate 1.9.0 (redomesticate)
+		ReducedOres 1.21.x-1.1 (reducedores)
+		Sable 2.0.3 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Sable Dynamic Lights 1.0.0 (sabledynlights)
+		Short Stacks 1.2.2 (shortstacks)
+		Simple Day Length Extender 1.2.2-NeoForge-1.21.1 (simpledaylengthextender)
+		Simple Radio 1.21.1-4.5.7.9 (simpleradio)
+		Simple Snowy Fix 2.2.1 (simple_snowy_fix)
+		Simple Voice Chat 1.21.1-2.6.20 (voicechat)
+		Snow! Real Magic! 12.2.2+neoforge (snowrealmagic)
+		SpruceUI 6.2.5+1.21.1 (spruceui)
+		Stony Cliffs Are Cool 1.1.2 (stonycliffs)
+		SuperFancyClouds:Rearchitected 1.9.3 (sfcr)
+		Supplementaries 1.21.1-3.7.4 (supplementaries)
+		Terralith 2.6.2 (terralith)
+		Terralith: No Structures 1.1 (terralith_no_structures)
+		Tesseract API 1.12.4-1.21.1 (tesseract_api)
+		Time Go Up, Hunger Go Down 1.0.6 (tgu_hgd)
+		Too Fast 0.4.3.6 (toofast)
+		Trimmed 3.0.0 (trimmed)
+		Veil 4.1.4 (veil)
+		Vista 1.21.1-4.5.0 (vista)
+		Voiceless Survival 2.0.1 (ezvcsurvival)
+		WalkableRails 1.0.0 (walkablerails)
+		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3)
+		Yumi Minecraft Libraries: Foundation 1.0.0-beta.1+1.21.1 (yumi_mc_core)
+[01Jul2026 17:19:01.418] [main/ERROR] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Access transformer file META-INF/accesstransformer.cfg provided by mod pride does not exist!
+[01Jul2026 17:19:02.709] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[01Jul2026 17:19:02.953] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[01Jul2026 17:19:02.967] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jul2026 17:19:03.061] [main/WARN] [mixin/]: Reference map 'puffish_biome_dither-refmap.json' for puffish_biome_dither.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.062] [main/WARN] [mixin/]: Reference map 'caveore.refmap.json' for caveore.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.063] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.118] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.122] [main/WARN] [mixin/]: Reference map 'citadelup.refmap.json' for citadelup.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.124] [main/WARN] [mixin/]: Reference map 'snowrealmagic.refmap.json' for snowrealmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.125] [main/WARN] [mixin/]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.141] [main/WARN] [mixin/]: Reference map 'alexsmobsup.refmap.json' for alexsmobsup.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.143] [main/WARN] [mixin/]: Reference map 'alexsmobsup.refmap.json' for alexsmobsup-elytraslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.143] [main/WARN] [mixin/]: Reference map 'endrem.refmap.json' for endrem.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.146] [main/WARN] [mixin/]: Reference map 'patience.refmap.json' for patience.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.239] [main/WARN] [mixin/]: Reference map 'kiwi.refmap.json' for kiwi.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.241] [main/WARN] [mixin/]: Reference map 'break_my_fall.refmap.json' for break_my_fall.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.265] [main/WARN] [mixin/]: Reference map 'particlerain.refmap.json' for particlerain.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.267] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.276] [main/WARN] [mixin/]: Reference map 'more_darkness.refmap.json' for more_darkness.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.279] [main/WARN] [mixin/]: Reference map 'toofast.refmap.json' for toofast.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.281] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.283] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.284] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.neo.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.288] [main/WARN] [mixin/]: Reference map 'joyofpainting.refmap.json' for joyofpainting.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.289] [main/WARN] [mixin/]: Reference map 'ezvcsurvival.refmap.json' for ezvcsurvival.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.292] [main/WARN] [mixin/]: Reference map 'shortstacks.refmap.json' for shortstacks.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.307] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.311] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[01Jul2026 17:19:03.314] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[01Jul2026 17:19:03.376] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.378] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.382] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.385] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.386] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.390] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.391] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.394] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.396] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.398] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.399] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.400] [main/WARN] [mixin/]: Reference map 'simpleradio.refmap.json' for simpleradio.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.402] [main/WARN] [mixin/]: Reference map 'simpleradio.refmap.json' for simpleradio.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:03.405] [main/WARN] [mixin/]: Reference map 'openloader.refmap.json' for openloader.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jul2026 17:19:04.557] [main/WARN] [mixin/]: Error loading class: fuzs/diagonalblocks/world/phys/shapes/VoxelCollection (java.lang.ClassNotFoundException: fuzs.diagonalblocks.world.phys.shapes.VoxelCollection)
+[01Jul2026 17:19:04.557] [main/WARN] [mixin/]: @Mixin target fuzs.diagonalblocks.world.phys.shapes.VoxelCollection was not found snowrealmagic.mixins.json:diagonalblocks.VoxelCollectionAccess from mod snowrealmagic
+[01Jul2026 17:19:04.560] [main/WARN] [mixin/]: Error loading class: sereneseasons/season/RandomUpdateHandler (java.lang.ClassNotFoundException: sereneseasons.season.RandomUpdateHandler)
+[01Jul2026 17:19:04.562] [main/WARN] [mixin/]: @Mixin target sereneseasons.season.RandomUpdateHandler was not found snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin from mod snowrealmagic
+[01Jul2026 17:19:04.630] [main/WARN] [mixin/]: Error loading class: fuzs/easyanvils/world/inventory/ModAnvilMenu (java.lang.ClassNotFoundException: fuzs.easyanvils.world.inventory.ModAnvilMenu)
+[01Jul2026 17:19:04.631] [main/WARN] [mixin/]: @Mixin target fuzs.easyanvils.world.inventory.ModAnvilMenu was not found exposure-common.mixins.json:compat.easy_anvils.ModAnvilMenuMixin from mod exposure
+[01Jul2026 17:19:04.809] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/automation/block/be/EnderWatcherBlockEntity (java.lang.ClassNotFoundException: org.violetmoon.quark.content.automation.block.be.EnderWatcherBlockEntity)
+[01Jul2026 17:19:05.360] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/vista/common/view_finder/ViewFinderAccess$Block (java.lang.ClassNotFoundException: net.mehvahdjukaar.vista.common.view_finder.ViewFinderAccess$Block)
+[01Jul2026 17:19:05.360] [main/WARN] [mixin/]: @Mixin target net.mehvahdjukaar.vista.common.view_finder.ViewFinderAccess$Block was not found sable.mixins.json:compatibility.vista.ViewFinderAccessMixin from mod sable
+[01Jul2026 17:19:05.381] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.383] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.410] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.412] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.423] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.424] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.469] [main/WARN] [mixin/]: Error loading class: com/spydnel/backpacks/events/BackpackPickupEvents (java.lang.ClassNotFoundException: com.spydnel.backpacks.events.BackpackPickupEvents)
+[01Jul2026 17:19:05.470] [main/WARN] [mixin/]: @Mixin target com.spydnel.backpacks.events.BackpackPickupEvents was not found sable-neoforge.mixins.json:compatibility.backpacks.BackpackPickupEventsMixin from mod sable
+[01Jul2026 17:19:05.577] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.render.immediate.model.EntityRenderer)
+[01Jul2026 17:19:05.578] [main/WARN] [mixin/]: @Mixin target net.caffeinemc.mods.sodium.client.render.immediate.model.EntityRenderer was not found flerovium.mixins.json:Entity.EntityRendererMixin from mod (unknown)
+[01Jul2026 17:19:05.579] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/render/immediate/model/ModelCuboid (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.render.immediate.model.ModelCuboid)
+[01Jul2026 17:19:05.579] [main/WARN] [mixin/]: @Mixin target net.caffeinemc.mods.sodium.client.render.immediate.model.ModelCuboid was not found flerovium.mixins.json:Entity.ModelCuboidAccessor from mod (unknown)
+[01Jul2026 17:19:05.768] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[01Jul2026 17:19:05.781] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.782] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.785] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.785] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.796] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.797] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.799] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.800] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.810] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.811] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:05.813] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:05.814] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:06.017] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[01Jul2026 17:19:08.180] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:08.180] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:08.185] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:08.185] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:08.191] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[01Jul2026 17:19:08.191] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[01Jul2026 17:19:14.247] [main/INFO] [dev.yumi.mc.core.impl.YumiFoundationMod/]: Initializing mods (entrypoint yumi:init)...
+[01Jul2026 17:19:14.481] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Starting proxy manager entrypoint loader
+[01Jul2026 17:19:14.485] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[01Jul2026 17:19:14.501] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Loaded proxy entrypoint net.swedz.tesseract.neoforge.proxy.builtin.TesseractProxy (TesseractProxy)
+[01Jul2026 17:19:14.502] [modloading-worker-0/INFO] [me.drex.antixray.common.AntiXray/]: Successfully initialized antixray for neoforge
+[01Jul2026 17:19:14.502] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[01Jul2026 17:19:14.503] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Loaded proxy entrypoint net.swedz.little_big_redstone.proxy.LBRProxy (LBRProxy)
+[01Jul2026 17:19:14.503] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Loaded proxy entrypoint net.swedz.tesseract.neoforge.compat.mi.proxy.TesseractMIProxy (TesseractMIProxy)
+[01Jul2026 17:19:14.504] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Done proxy manager entrypoint loader
+[01Jul2026 17:19:14.561] [modloading-worker-0/INFO] [Tesseract API/]: Tesseract API has completed initialization!
+[01Jul2026 17:19:15.113] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:15.129] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:15.181] [modloading-worker-0/INFO] [End Remastered/]: End Remastered config loaded with success
+[01Jul2026 17:19:15.204] [modloading-worker-0/INFO] [End Remastered/]: End Remastered eyes loaded with success
+[01Jul2026 17:19:15.282] [modloading-worker-0/INFO] [Redomesticate/]: Initializing Redomesticate common...
+[01Jul2026 17:19:15.396] [modloading-worker-0/INFO] [etherested.patience.Patience/]: patience mod initialized
+[01Jul2026 17:19:15.413] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Jul2026 17:19:15.418] [modloading-worker-0/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Initialized (multi-file config mode)
+[01Jul2026 17:19:15.426] [modloading-worker-0/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: Configurable Falls Block Tags Loaded
+[01Jul2026 17:19:15.426] [modloading-worker-0/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: Configurable Falls Fluid Tags Loaded
+[01Jul2026 17:19:15.509] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:15.729] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 9 KiwiModule annotations
+[01Jul2026 17:19:16.688] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:16.790] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[01Jul2026 17:19:16.810] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing EnderscapeConfig from '/workspaces/sd32asd/config/enderscape.json5'
+[01Jul2026 17:19:16.850] [modloading-worker-0/INFO] [Lexiconfig/]: Beginning lexicon shelving!
+[01Jul2026 17:19:16.865] [modloading-worker-0/INFO] [Lexiconfig/]: Shelved lexicon com.codinglitch.lexiconfig.LexiconfigConfig@3491b393!
+[01Jul2026 17:19:16.874] [modloading-worker-0/INFO] [Lexiconfig/]: Shelved lexicon com.codinglitch.simpleradio.SimpleRadioServerConfig@4ff4e30f!
+[01Jul2026 17:19:16.875] [modloading-worker-0/INFO] [Lexiconfig/]: Shelved lexicon com.codinglitch.simpleradio.SimpleRadioClientConfig@1231ac9e!
+[01Jul2026 17:19:16.894] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/sd32asd/config/yacl.json5'
+[01Jul2026 17:19:17.011] [modloading-worker-0/INFO] [net.bunten.enderscape.Enderscape/]: Enderscape initialized!
+[01Jul2026 17:19:17.863] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[01Jul2026 17:19:17.871] [modloading-worker-0/INFO] [fr0nick.sabledynlights.SableDynLightsMod/]: Sable Dynamic Lights initialized.
+[01Jul2026 17:19:18.110] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [snowrealmagic:core] initialized
+[01Jul2026 17:19:18.112] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		block: 11, block_entity_type: 2, loot_pool_entry_type: 1
+[01Jul2026 17:19:18.113] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
+[01Jul2026 17:19:18.113] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 2, neoforge:condition_codecs: 2
+[01Jul2026 17:19:19.537] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 14ms
+[01Jul2026 17:19:22.029] [modloading-sync-worker/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loading EZVCSurvival configuration...
+[01Jul2026 17:19:22.081] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:22.083] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:22.086] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:22.088] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
+[01Jul2026 17:19:22.092] [modloading-worker-0/INFO] [com.caveore.CaveOre/]: CaveOre initialized
+[01Jul2026 17:19:22.092] [modloading-worker-0/INFO] [Tesseract API/NativeMaterialItemSanityCheck/]: Starting validation process...
+[01Jul2026 17:19:22.093] [modloading-worker-0/INFO] [Tesseract API/NativeMaterialItemSanityCheck/]: Successfully validated 0 item ids.
+[01Jul2026 17:19:22.097] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[01Jul2026 17:19:22.145] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json?neoforge=only
+[01Jul2026 17:19:22.158] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[01Jul2026 17:19:22.186] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 2 plugin(s)
+[01Jul2026 17:19:22.187] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[01Jul2026 17:19:22.198] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 2 plugin(s)
+[01Jul2026 17:19:22.202] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'ezvcsurvival'
+[01Jul2026 17:19:22.202] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'simpleradio'
+[01Jul2026 17:19:22.256] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: SoundConfig loaded
+[01Jul2026 17:19:22.272] [modloading-sync-worker/INFO] [com.alexsmobsup.misc.AMLegacyAliasRegistry/]: [Alex's Mobs Up] Registered legacy aliases from 'alexsmobs' to 'alexsmobsup'
+[01Jul2026 17:19:22.283] [modloading-sync-worker/INFO] [Supplementaries/]: Finished mod setup in: [1, 1, 1, 0, 2, 3] ms
+[01Jul2026 17:19:22.348] [modloading-sync-worker/INFO] [Moonlight/]: Initialized color sets in 40ms
+[01Jul2026 17:19:22.382] [modloading-sync-worker/ERROR] [com.armilp.ezvcsurvival.EZVCSurvival/]: VIBRATION_FREQUENCY_FOR_EVENT is not an Object2IntOpenHashMap!
+[01Jul2026 17:19:22.444] [modloading-worker-0/INFO] [Lexiconfig/]: Cataloging lexicon com.codinglitch.lexiconfig.LexiconfigConfig@3491b393!
+[01Jul2026 17:19:22.451] [modloading-worker-0/INFO] [Lexiconfig/]: Cataloging lexicon com.codinglitch.simpleradio.SimpleRadioServerConfig@4ff4e30f!
+[01Jul2026 17:19:22.457] [modloading-worker-0/INFO] [Lexiconfig/]: Cataloging lexicon com.codinglitch.simpleradio.SimpleRadioClientConfig@1231ac9e!
+[01Jul2026 17:19:22.459] [modloading-worker-0/INFO] [simpleradio/]: Create is present!
+[01Jul2026 17:19:22.460] [modloading-worker-0/INFO] [simpleradio/]: ..and compat is enabled!
+[01Jul2026 17:19:22.460] [modloading-worker-0/INFO] [simpleradio/]: Sable is present!
+[01Jul2026 17:19:22.460] [modloading-worker-0/INFO] [simpleradio/]: ..and compat is enabled!
+[01Jul2026 17:19:22.461] [modloading-worker-0/INFO] [Lexiconfig/]: Lexiconfig cataloging completed!
+[01Jul2026 17:19:22.504] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.4 Target: null
+[01Jul2026 17:19:22.505] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json?neoforge=only
+[01Jul2026 17:19:22.558] [modloading-sync-worker/INFO] [sfcr/]: succ reg dimension payload on server side.
+[01Jul2026 17:19:22.648] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[01Jul2026 17:19:22.648] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Starting version check at https://updates.blamejared.com/get?n=prickle&gv=1.21.1&ml=neoforge
+[01Jul2026 17:19:22.690] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Jul2026 17:19:22.760] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Found status: BETA Current: 21.1.11 Target: 21.1.11
+[01Jul2026 17:19:22.760] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json?neoforge=only
+[01Jul2026 17:19:22.779] [main/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+cold_sweat (version 2.4.2 -> MISSING)
+Things may not work well.
+[01Jul2026 17:19:22.793] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/sd32asd/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[01Jul2026 17:19:22.793] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/sd32asd/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[01Jul2026 17:19:22.937] [main/INFO] [com.simibubi.create.Create/]: Created 196 recipes which will be injected into the game
+[01Jul2026 17:19:22.945] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[01Jul2026 17:19:22.946] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
+[01Jul2026 17:19:22.946] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.022] [main/INFO] [Open Loader/]: Scan started for SERVER_DATA.
+[01Jul2026 17:19:23.029] [main/INFO] [Open Loader/]: Located 0 packs. Took 5.82ms.
+[01Jul2026 17:19:23.058] [main/INFO] [Moonlight/]: Resource cache state for SERVER_DATA: up to date
+[01Jul2026 17:19:23.063] [main/INFO] [Moonlight/]: Populated search tree for pack at /workspaces/sd32asd/dynamic-data-pack-cache/supplementaries-generated_pack in 2.552 ms
+[01Jul2026 17:19:23.063] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators [amendments:generated_server_pack, supplementaries:generated_pack]
+[01Jul2026 17:19:23.073] [main/INFO] [Moonlight/]: Regenerating Dynamic SERVER_DATA Resources Provider [amendments:generated_server_pack], requested by strategy REGEN_ON_EVERY_RELOAD
+[01Jul2026 17:19:23.075] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
+[01Jul2026 17:19:23.075] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletemplereplacement] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.087] [main/INFO] [Moonlight/]: Generated runtime SERVER_DATA for pack amendments:generated_server_pack in 13.75 ms
+[01Jul2026 17:19:23.088] [main/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [supplementaries:generated_pack] (cache up-to-date)
+[01Jul2026 17:19:23.088] [main/INFO] [Moonlight/]: Finished runtime resources generation for 2 packs in a total of 23.98 ms 
+[01Jul2026 17:19:23.108] [main/INFO] [ReducedOres/]: [ReducedOres] Configuration loaded: Size x0.5 | Chance x0.5
+[01Jul2026 17:19:23.207] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletemplereplacement] Found status: AHEAD Current: 1-v1.2 Target: null
+[01Jul2026 17:19:23.207] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.303] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 50 -> 25 (Type: minecraft:ore)
+[01Jul2026 17:19:23.308] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 50 -> 25 (Type: minecraft:ore)
+[01Jul2026 17:19:23.337] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[01Jul2026 17:19:23.338] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionreplacement] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.345] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.355] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 48 -> 24 (Type: minecraft:ore)
+[01Jul2026 17:19:23.355] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 30 -> 15 (Type: minecraft:ore)
+[01Jul2026 17:19:23.356] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 48 -> 24 (Type: minecraft:ore)
+[01Jul2026 17:19:23.357] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 30 -> 15 (Type: minecraft:ore)
+[01Jul2026 17:19:23.361] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 16 -> 8 (Type: minecraft:ore)
+[01Jul2026 17:19:23.372] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 55 -> 28 (Type: minecraft:ore)
+[01Jul2026 17:19:23.372] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 26 -> 13 (Type: minecraft:ore)
+[01Jul2026 17:19:23.373] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 19 -> 10 (Type: minecraft:ore)
+[01Jul2026 17:19:23.373] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.374] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 55 -> 28 (Type: minecraft:ore)
+[01Jul2026 17:19:23.374] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 35 -> 18 (Type: minecraft:ore)
+[01Jul2026 17:19:23.375] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 55 -> 28 (Type: minecraft:ore)
+[01Jul2026 17:19:23.376] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 38 -> 19 (Type: minecraft:ore)
+[01Jul2026 17:19:23.395] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 3 -> 2 (Type: minecraft:scattered_ore)
+[01Jul2026 17:19:23.441] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 28 -> 14 (Type: minecraft:ore)
+[01Jul2026 17:19:23.447] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 16 -> 8 (Type: minecraft:ore)
+[01Jul2026 17:19:23.467] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 50 -> 25 (Type: minecraft:ore)
+[01Jul2026 17:19:23.481] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 4 -> 2 (Type: minecraft:ore)
+[01Jul2026 17:19:23.490] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 3 -> 2 (Type: minecraft:scattered_ore)
+[01Jul2026 17:19:23.491] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 2 -> 1 (Type: minecraft:scattered_ore)
+[01Jul2026 17:19:23.492] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionreplacement] Found status: AHEAD Current: 1-v1.2 Target: null
+[01Jul2026 17:19:23.492] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.492] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentreplacement] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.492] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.493] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.497] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 17 -> 9 (Type: minecraft:ore)
+[01Jul2026 17:19:23.497] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 17 -> 9 (Type: minecraft:ore)
+[01Jul2026 17:19:23.498] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 20 -> 10 (Type: minecraft:ore)
+[01Jul2026 17:19:23.498] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 10 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.498] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 8 -> 4 (Type: minecraft:ore)
+[01Jul2026 17:19:23.499] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 12 -> 6 (Type: minecraft:ore)
+[01Jul2026 17:19:23.499] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 8 -> 4 (Type: minecraft:ore)
+[01Jul2026 17:19:23.499] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 4 -> 2 (Type: minecraft:ore)
+[01Jul2026 17:19:23.499] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.499] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.505] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 3 -> 2 (Type: minecraft:ore)
+[01Jul2026 17:19:23.505] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 9 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.505] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 9 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.506] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.508] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.509] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.510] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 9 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.510] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 9 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.511] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 4 -> 2 (Type: minecraft:ore)
+[01Jul2026 17:19:23.511] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 7 -> 4 (Type: minecraft:ore)
+[01Jul2026 17:19:23.513] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 7 -> 4 (Type: minecraft:ore)
+[01Jul2026 17:19:23.514] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 33 -> 17 (Type: minecraft:ore)
+[01Jul2026 17:19:23.514] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 10 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.515] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 14 -> 7 (Type: minecraft:ore)
+[01Jul2026 17:19:23.515] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 8 -> 4 (Type: minecraft:ore)
+[01Jul2026 17:19:23.516] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 12 -> 6 (Type: minecraft:ore)
+[01Jul2026 17:19:23.516] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 64 -> 32 (Type: minecraft:ore)
+[01Jul2026 17:19:23.534] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 1 -> 1 (Type: enderscape:scattered_ore)
+[01Jul2026 17:19:23.536] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 10 -> 5 (Type: minecraft:ore)
+[01Jul2026 17:19:23.551] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 32 -> 16 (Type: create:layered_ore)
+[01Jul2026 17:19:23.552] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 32 -> 16 (Type: create:layered_ore)
+[01Jul2026 17:19:23.566] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 28 -> 14 (Type: minecraft:ore)
+[01Jul2026 17:19:23.567] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 16 -> 8 (Type: minecraft:ore)
+[01Jul2026 17:19:23.575] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 45 -> 23 (Type: minecraft:ore)
+[01Jul2026 17:19:23.575] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 45 -> 23 (Type: minecraft:ore)
+[01Jul2026 17:19:23.577] [main/INFO] [ReducedOres/]: [ReducedOres] Ore size changed: 12 -> 6 (Type: minecraft:ore)
+[01Jul2026 17:19:23.614] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 50 -> 25 for minecraft:ore_coal
+[01Jul2026 17:19:23.627] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for enderscape:ceiling_nebulite_ore
+[01Jul2026 17:19:23.636] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentreplacement] Found status: AHEAD Current: 1-v1.2 Target: null
+[01Jul2026 17:19:23.636] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/neoforge/voicechat
+[01Jul2026 17:19:23.639] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 9 -> 5 for enderscape:ceiling_nebulite_ore
+[01Jul2026 17:19:23.688] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 5 -> 3 for enderscape:nebulite_ore
+[01Jul2026 17:19:23.689] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 1 -> 2 for minecraft:ore_andesite
+[01Jul2026 17:19:23.689] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 2 -> 4 for minecraft:ore_andesite
+[01Jul2026 17:19:23.689] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 2 -> 1 for minecraft:ore_blackstone
+[01Jul2026 17:19:23.689] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 46 -> 23 for minecraft:ore_clay
+[01Jul2026 17:19:23.690] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 20 -> 10 for minecraft:ore_coal_buried
+[01Jul2026 17:19:23.691] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 30 -> 15 for minecraft:ore_coal
+[01Jul2026 17:19:23.691] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 16 -> 8 for minecraft:ore_copper_small
+[01Jul2026 17:19:23.692] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 16 -> 8 for minecraft:ore_copper_large
+[01Jul2026 17:19:23.692] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 7 -> 4 for minecraft:ore_diamond_small
+[01Jul2026 17:19:23.693] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for minecraft:ore_diamond_buried
+[01Jul2026 17:19:23.693] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 9 -> 18 for minecraft:ore_diamond_large
+[01Jul2026 17:19:23.693] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 2 -> 1 for minecraft:ore_diamond_medium
+[01Jul2026 17:19:23.693] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 1 -> 2 for minecraft:ore_diorite
+[01Jul2026 17:19:23.694] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 2 -> 4 for minecraft:ore_diorite
+[01Jul2026 17:19:23.694] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 7 -> 4 for minecraft:ore_dirt
+[01Jul2026 17:19:23.695] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 100 -> 50 for minecraft:ore_emerald
+[01Jul2026 17:19:23.695] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for minecraft:ore_gold_buried
+[01Jul2026 17:19:23.696] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 20 -> 10 for minecraft:ore_nether_gold
+[01Jul2026 17:19:23.697] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 50 -> 25 for minecraft:ore_gold
+[01Jul2026 17:19:23.697] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 10 -> 5 for minecraft:ore_nether_gold
+[01Jul2026 17:19:23.697] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 1 -> 2 for minecraft:ore_granite
+[01Jul2026 17:19:23.698] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 2 -> 4 for minecraft:ore_granite
+[01Jul2026 17:19:23.698] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 14 -> 7 for minecraft:ore_gravel
+[01Jul2026 17:19:23.698] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 2 -> 1 for minecraft:ore_gravel_nether
+[01Jul2026 17:19:23.699] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 14 -> 7 for minecraft:ore_infested
+[01Jul2026 17:19:23.699] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 10 -> 5 for minecraft:ore_iron
+[01Jul2026 17:19:23.700] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 10 -> 5 for minecraft:ore_iron_small
+[01Jul2026 17:19:23.700] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 90 -> 45 for minecraft:ore_iron
+[01Jul2026 17:19:23.700] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 2 -> 1 for minecraft:ore_lapis
+[01Jul2026 17:19:23.701] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for minecraft:ore_lapis_buried
+[01Jul2026 17:19:23.701] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for minecraft:ore_magma
+[01Jul2026 17:19:23.701] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 32 -> 16 for minecraft:ore_quartz
+[01Jul2026 17:19:23.702] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 16 -> 8 for minecraft:ore_quartz
+[01Jul2026 17:19:23.702] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 4 -> 2 for minecraft:ore_redstone
+[01Jul2026 17:19:23.705] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 8 -> 4 for minecraft:ore_redstone
+[01Jul2026 17:19:23.705] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 12 -> 6 for minecraft:ore_soul_sand
+[01Jul2026 17:19:23.705] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 2 -> 1 for minecraft:ore_tuff
+[01Jul2026 17:19:23.723] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 6 -> 3 for enderscape:scattered_shadoline_ore
+[01Jul2026 17:19:23.725] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 12 -> 6 for enderscape:shadoline_ore
+[01Jul2026 17:19:23.733] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Found status: BETA Current: 1.21.1-2.6.20 Target: 1.21.1-2.6.20
+[01Jul2026 17:19:23.740] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[01Jul2026 17:19:23.744] [main/INFO] [ReducedOres/]: [ReducedOres] Rarity changed: 4 -> 8 for minecraft:ore_diorite
+[01Jul2026 17:19:23.770] [main/INFO] [ReducedOres/]: [ReducedOres] Placement count changed: 8 -> 4 for create:zinc_ore
+[01Jul2026 17:19:23.876] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[01Jul2026 17:19:23.876] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdoverhaul] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json?neoforge=only
+[01Jul2026 17:19:24.048] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdoverhaul] Found status: AHEAD Current: 1-v2.1.f Target: null
+[01Jul2026 17:19:24.048] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json?neoforge=only
+[01Jul2026 17:19:24.174] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1.1 Target: null
+[01Jul2026 17:19:24.174] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttemplereplacement] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json?neoforge=only
+[01Jul2026 17:19:24.318] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttemplereplacement] Found status: AHEAD Current: 1-v1.2 Target: null
+[01Jul2026 17:19:24.318] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.21.1&ml=neoforge
+[01Jul2026 17:19:24.335] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [openloader] Found status: BETA Current: 21.1.5 Target: 21.1.5
+[01Jul2026 17:19:25.308] [Worker-Main-2/INFO] [com.alexsmobsup.AlexsMobsUp/]: Adding datapack listener capsid_recipes
+[01Jul2026 17:19:26.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 4242 recipes
+[01Jul2026 17:19:26.371] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:give_quest_trader_trade, minecraft:wander_add_map]
+[01Jul2026 17:19:26.372] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3674 advancements
+[01Jul2026 17:19:26.390] [main/INFO] [Supplementaries/]: Loaded 29 flute songs
+[01Jul2026 17:19:26.499] [main/INFO] [Moonlight/]: Applied 17 data villager trades
+[01Jul2026 17:19:26.508] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[01Jul2026 17:19:26.508] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[01Jul2026 17:19:26.549] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[01Jul2026 17:19:28.131] [main/INFO] [Supplementaries/]: Registering custom dispenser behaviors
+[01Jul2026 17:19:28.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[01Jul2026 17:19:28.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jul2026 17:19:28.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jul2026 17:19:28.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jul2026 17:19:28.467] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jul2026 17:19:28.552] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
+[01Jul2026 17:19:28.610] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jul2026 17:19:28.613] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[01Jul2026 17:19:28.617] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jul2026 17:19:28.617] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jul2026 17:19:28.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jul2026 17:19:28.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jul2026 17:19:28.637] [Server thread/INFO] [net.z2six.bettersparsestructures.Bettersparsestructures/]: Loaded Better Sparse Structures server config: globalSpacingRadiusChunks=10, whitelistedStructures=0, countWhitelistedStructuresForSpacing=false, spacingRadiusOverrides=0, enableSizeScaledSpacing=true, minimumSize=10.0, maximumSize=20000.0, distanceModifier=5.0, enableRepetitionBias=true, repetitionBiasRadiusChunks=25, structureIdBiasWeight=1.75, sizeClassBiasWeight=0.5, repetitionBiasThreshold=1.5, enableFirstOccurrenceProtection=true, firstOccurrenceStartingPreferenceMultiplier=0.75, firstOccurrenceMinimumPreferenceMultiplier=0.15, firstOccurrenceForceAfterFailures=8, use3dBlockSpacing=true, allowStructureOverlap=false, sendDebugStructureMarkers=true, logStructureAttempts=true, structureAttemptSummaryInterval=100
+[01Jul2026 17:19:28.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jul2026 17:19:28.882] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:29.658] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:39.514] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / cyberspace:darknet_dimension] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:42.787] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / cyberspace:cyberspace_dimension] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:42.807] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:42.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jul2026 17:19:43.303] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2026 17:19:43.418] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 514 ms
+[01Jul2026 17:19:43.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.786s)! For help, type "help"
+[01Jul2026 17:19:43.485] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[01Jul2026 17:19:43.495] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Loaded configs: strict=true, strictFiles=true, collectMode=false, bothRequiredMods=94, clientRequiredMods=0, clientOptionalMods=5, serverOnlyMods=2, denyMods=0
+[01Jul2026 17:19:43.504] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: caveore.json
+[01Jul2026 17:19:43.515] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_faucet_test_level] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:43.783] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:server_projectile_test_level] using RapierPhysicsPipelineProvider
+[01Jul2026 17:19:53.454] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01Jul2026 17:19:53.483] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[01Jul2026 17:19:53.673] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]: Using a multiplier of x2.0 for Day time
+[01Jul2026 17:19:53.678] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]:     - Phase starts at 0 and will advance daylight cycle by 1 ticks over 2 game ticks on average.
+[01Jul2026 17:19:53.678] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]: Using a multiplier of x2.0 for Night time
+[01Jul2026 17:19:53.679] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]:     - Phase starts at 13000 and will advance daylight cycle by 1 ticks over 2 game ticks on average.
+[01Jul2026 17:19:53.680] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]: World started, doDaylightCycle is delayed until first player join...
+[01Jul2026 17:19:58.539] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@399f09d4[id=f9dde429-7164-3c08-b645-abe9a73b444f,name=awdadweed,properties={}] lost connection: Disconnected
+[01Jul2026 17:20:14.735] [Server thread/ERROR] [net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment cold_sweat:entity_temperature. Skipping.
+[01Jul2026 17:20:14.736] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:burning_point'
+[01Jul2026 17:20:14.736] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:world_temperature'
+[01Jul2026 17:20:14.737] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_dampening'
+[01Jul2026 17:20:14.737] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_resistance'
+[01Jul2026 17:20:14.737] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:temperature_rate'
+[01Jul2026 17:20:14.737] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_dampening'
+[01Jul2026 17:20:14.737] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:base_temperature'
+[01Jul2026 17:20:14.738] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_resistance'
+[01Jul2026 17:20:14.738] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:freezing_point'
+[01Jul2026 17:20:14.741] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'No component with type: 'cold_sweat:armor_insulation'; No component with type: 'cold_sweat:armor_insulation' missed input: {"cold_sweat:armor_insulation":{insulation:[]}}'
+[01Jul2026 17:20:14.744] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: cold_sweat:sewing_table removed now.
+[01Jul2026 17:20:14.746] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: potaiter377[/10.130.113.186:53983] logged in with entity id 14 at (-3363.0765961026405, 67.0, 1765.0876096340792)
+[01Jul2026 17:20:14.749] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player potaiter377
+[01Jul2026 17:20:14.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 joined the game
+[01Jul2026 17:20:14.900] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to potaiter377 (nonce=-562768463885704895)
+[01Jul2026 17:20:14.915] [Server thread/INFO] [github.cosmicdan.simpledaylengthextender.SimpleDayLengthExtender/]: A player has joined, starting doDaylightCycle
+[01Jul2026 17:20:15.134] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.186:53983, UDP routing to /10.130.113.186:55615
+[01Jul2026 17:20:15.384] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of potaiter377 (20)
+[01Jul2026 17:20:15.387] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to potaiter377
+[01Jul2026 17:20:17.322] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] potaiter377 passed mod check (99 mods, 78 files)
+[01Jul2026 17:20:17.452] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a044d873-41c5-386c-9dda-ecdba885ba65
+[01Jul2026 17:20:18.456] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a044d873-41c5-386c-9dda-ecdba885ba65
+[01Jul2026 17:20:18.459] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player potaiter377 (a044d873-41c5-386c-9dda-ecdba885ba65) successfully connected to voice chat
+[01Jul2026 17:20:29.919] [Server thread/ERROR] [net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment cold_sweat:entity_temperature. Skipping.
+[01Jul2026 17:20:29.919] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:burning_point'
+[01Jul2026 17:20:29.920] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:world_temperature'
+[01Jul2026 17:20:29.920] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:temperature_rate'
+[01Jul2026 17:20:29.920] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_dampening'
+[01Jul2026 17:20:29.920] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_resistance'
+[01Jul2026 17:20:29.920] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_dampening'
+[01Jul2026 17:20:29.921] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:base_temperature'
+[01Jul2026 17:20:29.921] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_resistance'
+[01Jul2026 17:20:29.921] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:freezing_point'
+[01Jul2026 17:20:29.922] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'No component with type: 'cold_sweat:armor_insulation'; No component with type: 'cold_sweat:armor_insulation' missed input: {"cold_sweat:armor_insulation":{insulation:[]}}'
+[01Jul2026 17:20:29.923] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: cold_sweat:sewing_table removed now.
+[01Jul2026 17:20:29.924] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: cold_sweat:sewing_table removed now.
+[01Jul2026 17:20:29.924] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GonerInAHelm[/10.130.113.70:30745] logged in with entity id 205 at (-3353.4050750847086, 68.05569244229139, 1754.7538248562191)
+[01Jul2026 17:20:29.925] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player GonerInAHelm
+[01Jul2026 17:20:29.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonerInAHelm joined the game
+[01Jul2026 17:20:29.948] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to GonerInAHelm (nonce=1714786049195254911)
+[01Jul2026 17:20:30.045] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.70:30745, UDP routing to /10.130.113.70:54866
+[01Jul2026 17:20:30.048] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GonerInAHelm (20)
+[01Jul2026 17:20:30.050] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GonerInAHelm
+[01Jul2026 17:20:31.752] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] GonerInAHelm passed mod check (99 mods, 78 files)
+[01Jul2026 17:20:32.265] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d6c6db9e-ab24-3d09-b356-fe05c7d7689c
+[01Jul2026 17:20:33.266] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d6c6db9e-ab24-3d09-b356-fe05c7d7689c
+[01Jul2026 17:20:33.267] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GonerInAHelm (d6c6db9e-ab24-3d09-b356-fe05c7d7689c) successfully connected to voice chat
+[01Jul2026 17:20:45.948] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Initializing Opus
+[01Jul2026 17:20:45.965] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully initialized Opus
+[01Jul2026 17:21:24.083] [Server thread/ERROR] [net.neoforged.neoforge.attachment.AttachmentHolder/]: Encountered unknown or non-serializable data attachment cold_sweat:entity_temperature. Skipping.
+[01Jul2026 17:21:24.084] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:burning_point'
+[01Jul2026 17:21:24.084] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:world_temperature'
+[01Jul2026 17:21:24.084] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:temperature_rate'
+[01Jul2026 17:21:24.084] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_dampening'
+[01Jul2026 17:21:24.084] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_resistance'
+[01Jul2026 17:21:24.085] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:cold_dampening'
+[01Jul2026 17:21:24.085] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:base_temperature'
+[01Jul2026 17:21:24.085] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:heat_resistance'
+[01Jul2026 17:21:24.085] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'cold_sweat:freezing_point'
+[01Jul2026 17:21:24.086] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'No component with type: 'cold_sweat:armor_insulation'; No component with type: 'cold_sweat:armor_insulation' missed input: {"cold_sweat:armor_insulation":{insulation:[]}}; No component with type: 'cold_sweat:armor_insulation'; No component with type: 'cold_sweat:armor_insulation' missed input: {"cold_sweat:armor_insulation":{insulation:[]},"minecraft:container":[{item:{count:64,id:"minecraft:andesite"},slot:0},{item:{count:64,id:"minecraft:andesite"},slot:1},{item:{count:27,id:"minecraft:andesite"},slot:2},{item:{count:10,id:"minecraft:gunpowder"},slot:3},{item:{count:2,id:"minecraft:feather"},slot:4},{item:{count:4,id:"minecraft:pumpkin_seeds"},slot:5},{item:{count:2,id:"farmersdelight:cabbage_seeds"},slot:6},{item:{count:5,id:"minecraft:slime_ball"},slot:7},{item:{count:31,id:"minecraft:bone"},slot:8},{item:{count:6,id:"farmersdelight:tomato_seeds"},slot:9},{item:{count:16,id:"minecraft:wheat_seeds"},slot:10},{item:{count:3,id:"minecraft:glow_ink_sac"},slot:11},{item:{count:1,id:"alexsmobsup:acacia_blossom"},slot:12},{item:{count:4,id:"alexsmobsup:kangaroo_hide"},slot:13},{item:{count:5,id:"supplementaries:flax_seeds"},slot:14},{item:{count:10,id:"supplementaries:antique_ink"},slot:15},{item:{count:4,id:"alexsmobsup:gazelle_horn"},slot:16},{item:{count:1,id:"minecraft:potato"},slot:17},{item:{count:1,id:"minecraft:golden_horse_armor"},slot:18},{item:{count:8,id:"minecraft:emerald"},slot:19},{item:{count:15,id:"minecraft:stick"},slot:20},{item:{count:10,id:"minecraft:sugar"},slot:21},{item:{count:8,id:"minecraft:leather"},slot:22},{item:{count:1,id:"minecraft:saddle"},slot:23},{item:{components:{"cold_sweat:armor_insulation":{insulation:[]}},count:1,id:"minecraft:golden_horse_armor"},slot:24},{item:{count:1,id:"minecraft:skeleton_skull"},slot:25}]}'
+[01Jul2026 17:21:24.087] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: cold_sweat:sewing_table removed now.
+[01Jul2026 17:21:24.088] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: cold_sweat:sewing_table removed now.
+[01Jul2026 17:21:24.088] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: awdadweed[/10.130.113.136:63048] logged in with entity id 276 at (-3356.520370877107, 68.99997680816026, 1755.2864181599346)
+[01Jul2026 17:21:24.090] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player awdadweed
+[01Jul2026 17:21:24.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awdadweed joined the game
+[01Jul2026 17:21:24.114] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to awdadweed (nonce=8824052444712712532)
+[01Jul2026 17:21:24.467] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of awdadweed (20)
+[01Jul2026 17:21:24.468] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to awdadweed
+[01Jul2026 17:21:24.518] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.136:63048, UDP routing to /10.130.113.136:51520
+[01Jul2026 17:21:27.326] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] awdadweed passed mod check (99 mods, 78 files)
+[01Jul2026 17:21:29.776] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player f9dde429-7164-3c08-b645-abe9a73b444f
+[01Jul2026 17:21:30.778] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player f9dde429-7164-3c08-b645-abe9a73b444f
+[01Jul2026 17:21:30.778] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player awdadweed (f9dde429-7164-3c08-b645-abe9a73b444f) successfully connected to voice chat
+[01Jul2026 17:24:53.630] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:24:53.670] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:24:53.671] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:24:53.671] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:24:53.671] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:29:53.619] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:29:53.652] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:29:53.654] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:29:53.655] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:29:53.656] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:34:53.620] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:34:53.676] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:34:53.677] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:34:53.678] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:34:53.679] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:39:53.576] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:39:53.601] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:39:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:39:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:39:53.603] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:44:02.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <potaiter377> не можем
+[01Jul2026 17:44:11.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonerInAHelm> no problem
+[01Jul2026 17:44:53.575] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:44:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:44:53.598] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:44:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:44:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:45:57.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <awdadweed> spat
+[01Jul2026 17:49:53.566] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:49:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:49:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:49:53.590] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:49:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:52:44.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 has reached the goal [Flowers of the Savanna]
+[01Jul2026 17:54:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:54:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:54:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:54:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:54:53.590] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 17:58:39.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awdadweed has made the advancement [A Seedy Place]
+[01Jul2026 17:59:53.568] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 17:59:53.590] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 17:59:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 17:59:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 17:59:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:01:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 has made the advancement [Voluntary Exile]
+[01Jul2026 18:04:53.568] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:04:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:04:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:04:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:04:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:09:53.575] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:09:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:09:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:09:53.601] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:09:53.601] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:10:29.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 has made the advancement [Hot Stuff]
+[01Jul2026 18:14:53.568] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:14:53.592] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:14:53.592] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:14:53.592] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:14:53.593] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:15:24.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 has made the advancement [Hunt and Gather]
+[01Jul2026 18:19:46.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 fell from a high place
+[01Jul2026 18:19:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:19:53.595] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:19:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:19:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:19:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:21:02.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awdadweed has made the advancement [Isn't It Iron Pick]
+[01Jul2026 18:24:53.568] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:24:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:24:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:24:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:24:53.590] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:28:36.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awdadweed has made the advancement [Gone Bananas!]
+[01Jul2026 18:29:53.572] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:29:53.601] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:29:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:29:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:29:53.602] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:31:29.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 has made the advancement [It's an Emu!!!]
+[01Jul2026 18:34:03.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <awdadweed> артем ты где
+[01Jul2026 18:34:13.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <potaiter377> рядом а че
+[01Jul2026 18:34:19.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <awdadweed> ножници
+[01Jul2026 18:34:22.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <awdadweed> овца
+[01Jul2026 18:34:53.574] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:34:53.594] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:34:53.595] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:34:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:34:53.596] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:35:19.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonerInAHelm has made the advancement [Pest Control]
+[01Jul2026 18:39:53.575] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:39:53.594] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:39:53.594] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:39:53.594] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:39:53.595] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:44:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:44:53.584] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:44:53.584] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:44:53.584] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:44:53.584] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:49:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:49:53.584] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:49:53.585] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:49:53.585] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:49:53.586] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:51:37.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was shot by Skeleton
+[01Jul2026 18:51:56.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was shot by Skeleton
+[01Jul2026 18:52:09.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was blown up by Creeper
+[01Jul2026 18:52:21.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was shot by Skeleton
+[01Jul2026 18:54:50.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonerInAHelm has made the advancement [Hot Stuff]
+[01Jul2026 18:54:53.593] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:54:53.609] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:54:53.609] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:54:53.609] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:54:53.609] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 18:56:27.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was shot by Skeleton
+[01Jul2026 18:57:05.907] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id cold_sweat:chameleon
+[01Jul2026 18:57:47.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported potaiter377 to GonerInAHelm
+[01Jul2026 18:58:07.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 was slain by GonerInAHelm
+[01Jul2026 18:58:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported potaiter377 to GonerInAHelm
+[01Jul2026 18:59:53.576] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 18:59:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 18:59:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 18:59:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 18:59:53.600] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:04:53.567] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:04:53.582] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:04:53.582] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:04:53.582] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:04:53.583] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:09:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:09:53.612] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:09:53.613] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:09:53.613] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:09:53.613] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:14:53.579] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:14:53.598] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:14:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:14:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:14:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:18:24.110] [Worker-Main-3/INFO] [net.z2six.bettersparsestructures.Bettersparsestructures/]: Better Sparse Structures summary
+  attempts=100
+  accepted=0
+  acceptedWhitelisted=0
+  acceptedProtected=0
+  acceptedForced=0
+  rejected=100
+  rejectedSpacing=99
+  rejectedOverlap=1
+  rejectedRepetition=0
+
+[01Jul2026 19:19:53.573] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:19:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:19:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:19:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:19:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:20:33.043] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: potaiter377 lost connection: Disconnected
+[01Jul2026 19:20:33.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 left the game
+[01Jul2026 19:20:33.046] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client potaiter377
+[01Jul2026 19:24:12.524] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: potaiter377[/10.130.113.186:50074] logged in with entity id 28133 at (-4308.977362378681, 105.00000014216427, 2922.3336178199643)
+[01Jul2026 19:24:12.525] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player potaiter377
+[01Jul2026 19:24:12.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 joined the game
+[01Jul2026 19:24:12.544] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to potaiter377 (nonce=-5830987552284642506)
+[01Jul2026 19:24:12.973] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of potaiter377 (20)
+[01Jul2026 19:24:12.977] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to potaiter377
+[01Jul2026 19:24:13.040] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.186:50074, UDP routing to /10.130.113.186:58305
+[01Jul2026 19:24:14.827] [Server thread/WARN] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Kicked potaiter377: Additional not allowed mods | entries=1
+[01Jul2026 19:24:14.850] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: potaiter377 lost connection: Please use the official modpack.
+
+Additional not allowed mods
+• xray
+
+Use only the provided modpack.
+[01Jul2026 19:24:14.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 left the game
+[01Jul2026 19:24:14.851] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client potaiter377
+[01Jul2026 19:24:53.557] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:24:53.571] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:24:53.571] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:24:53.571] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:24:53.572] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:27:46.541] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: potaiter377[/10.130.113.186:50204] logged in with entity id 28960 at (-4308.977362378681, 105.00000014216427, 2922.3336178199643)
+[01Jul2026 19:27:46.542] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player potaiter377
+[01Jul2026 19:27:46.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 joined the game
+[01Jul2026 19:27:46.561] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to potaiter377 (nonce=-4437918575061830611)
+[01Jul2026 19:27:46.911] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of potaiter377 (20)
+[01Jul2026 19:27:46.911] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to potaiter377
+[01Jul2026 19:27:46.961] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.186:50204, UDP routing to /10.130.113.186:50154
+[01Jul2026 19:27:48.305] [Server thread/WARN] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Kicked potaiter377: Additional not allowed mods | entries=1
+[01Jul2026 19:27:48.335] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: potaiter377 lost connection: Please use the official modpack.
+
+Additional not allowed mods
+• xray
+
+Use only the provided modpack.
+[01Jul2026 19:27:48.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 left the game
+[01Jul2026 19:27:48.335] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client potaiter377
+[01Jul2026 19:29:53.561] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:29:53.578] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:29:53.578] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:29:53.579] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:29:53.579] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:30:17.884] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: potaiter377[/10.130.113.186:50278] logged in with entity id 29292 at (-4308.977362378681, 105.00000014216427, 2922.3336178199643)
+[01Jul2026 19:30:17.884] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player potaiter377
+[01Jul2026 19:30:17.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 joined the game
+[01Jul2026 19:30:17.896] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] Sent scan request to potaiter377 (nonce=7041665800750818749)
+[01Jul2026 19:30:18.240] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of potaiter377 (20)
+[01Jul2026 19:30:18.241] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to potaiter377
+[01Jul2026 19:30:18.291] [Netty Epoll Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /10.130.113.186:50278, UDP routing to /10.130.113.186:51959
+[01Jul2026 19:30:19.704] [Server thread/INFO] [com.hardrock.modwhitelist.Modwhitelist/]: [Modwhitelist] potaiter377 passed mod check (99 mods, 78 files)
+[01Jul2026 19:30:19.976] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a044d873-41c5-386c-9dda-ecdba885ba65
+[01Jul2026 19:30:20.976] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a044d873-41c5-386c-9dda-ecdba885ba65
+[01Jul2026 19:30:20.977] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player potaiter377 (a044d873-41c5-386c-9dda-ecdba885ba65) successfully connected to voice chat
+[01Jul2026 19:34:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:34:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:34:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:34:53.591] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:34:53.592] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:38:51.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonerInAHelm fell from a high place
+[01Jul2026 19:39:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:39:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:39:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:39:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:39:53.589] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:44:53.595] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:44:53.613] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:44:53.614] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:44:53.614] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:44:53.614] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:49:53.568] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:49:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:49:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:49:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:49:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:54:53.569] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:54:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:54:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:54:53.587] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:54:53.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 19:56:50.384] [Worker-Main-2/INFO] [net.z2six.bettersparsestructures.Bettersparsestructures/]: Better Sparse Structures summary
+  attempts=200
+  accepted=17
+  acceptedWhitelisted=0
+  acceptedProtected=4
+  acceptedForced=2
+  rejected=183
+  rejectedSpacing=179
+  rejectedOverlap=3
+  rejectedRepetition=1
+
+[01Jul2026 19:59:53.573] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 19:59:53.598] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 19:59:53.598] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 19:59:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 19:59:53.599] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 20:00:19.484] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GonerInAHelm lost connection: Disconnected
+[01Jul2026 20:00:19.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonerInAHelm left the game
+[01Jul2026 20:00:19.485] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client GonerInAHelm
+[01Jul2026 20:00:20.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: awdadweed lost connection: Disconnected
+[01Jul2026 20:00:20.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awdadweed left the game
+[01Jul2026 20:00:20.536] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client awdadweed
+[01Jul2026 20:00:28.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: potaiter377 lost connection: Disconnected
+[01Jul2026 20:00:28.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: potaiter377 left the game
+[01Jul2026 20:00:28.437] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client potaiter377
+[01Jul2026 20:00:31.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jul2026 20:00:31.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jul2026 20:00:31.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jul2026 20:00:31.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 20:00:31.356] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2026 20:00:31.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 20:00:31.483] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2026 20:00:31.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 20:00:31.493] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:darknet_dimension
+[01Jul2026 20:00:31.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 20:00:31.504] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/cyberspace:cyberspace_dimension
+[01Jul2026 20:00:31.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 20:00:31.512] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (darknet_dimension): All chunks are saved
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cyberspace_dimension): All chunks are saved
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jul2026 20:00:31.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

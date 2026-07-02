@@ -1,0 +1,674 @@
+{
+  "mods": [
+    {
+      "modid": "abridged",
+      "version": "*"
+    },
+    {
+      "modid": "aeronautics",
+      "version": "*"
+    },
+    {
+      "modid": "aeronautics_bundled",
+      "version": "*"
+    },
+    {
+      "modid": "alexsmobsup",
+      "version": "*"
+    },
+    {
+      "modid": "amendments",
+      "version": "*"
+    },
+    {
+      "modid": "apollib",
+      "version": "*"
+    },
+    {
+      "modid": "architectury",
+      "version": "*"
+    },
+    {
+      "modid": "backpacks",
+      "version": "*"
+    },
+    {
+      "modid": "bettersparsestructures",
+      "version": "*"
+    },
+    {
+      "modid": "break_my_fall",
+      "version": "*"
+    },
+    {
+      "modid": "caveore",
+      "version": "*"
+    },
+    {
+      "modid": "citadelup",
+      "version": "*"
+    },
+    {
+      "modid": "cloth_config",
+      "version": "*"
+    },
+    {
+      "modid": "continents",
+      "version": "*"
+    },
+    {
+      "modid": "create",
+      "version": "*"
+    },
+    {
+      "modid": "cupboard",
+      "version": "*"
+    },
+    {
+      "modid": "cyberspace",
+      "version": "*"
+    },
+    {
+      "modid": "dsurround",
+      "version": "*"
+    },
+    {
+      "modid": "enderscape",
+      "version": "*"
+    },
+    {
+      "modid": "endrem",
+      "version": "*"
+    },
+    {
+      "modid": "exposure",
+      "version": "*"
+    },
+    {
+      "modid": "ezvcsurvival",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_api_base",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_block_view_api_v2",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_game_rule_api_v1",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_model_loading_api_v1",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_renderer_api_v1",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_renderer_indigo",
+      "version": "*"
+    },
+    {
+      "modid": "fabric_rendering_data_attachment_v1",
+      "version": "*"
+    },
+    {
+      "modid": "farmersdelight",
+      "version": "*"
+    },
+    {
+      "modid": "ferritecore",
+      "version": "*"
+    },
+    {
+      "modid": "flerovium",
+      "version": "*"
+    },
+    {
+      "modid": "flywheel",
+      "version": "*"
+    },
+    {
+      "modid": "geckolib",
+      "version": "*"
+    },
+    {
+      "modid": "guideme",
+      "version": "*"
+    },
+    {
+      "modid": "incision",
+      "version": "*"
+    },
+    {
+      "modid": "jei",
+      "version": "*"
+    },
+    {
+      "modid": "joyofpainting",
+      "version": "*"
+    },
+    {
+      "modid": "kiwi",
+      "version": "*"
+    },
+    {
+      "modid": "lambdynlights",
+      "version": "*"
+    },
+    {
+      "modid": "lambdynlights_api",
+      "version": "*"
+    },
+    {
+      "modid": "lambdynlights_runtime",
+      "version": "*"
+    },
+    {
+      "modid": "lexiconfig",
+      "version": "*"
+    },
+    {
+      "modid": "lithostitched",
+      "version": "*"
+    },
+    {
+      "modid": "little_big_redstone",
+      "version": "*"
+    },
+    {
+      "modid": "modwhitelist",
+      "version": "*"
+    },
+    {
+      "modid": "moonlight",
+      "version": "*"
+    },
+    {
+      "modid": "more_darkness",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtaverns",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsancientcityoverhaul",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsdeserttemplereplacement",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsendcastlestandalone",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsjungletemplereplacement",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsnetherfortressoverhaul",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsoceanmonumentreplacement",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernspillageroutpostoverhaul",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsstrongholdoverhaul",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernsswamphutoverhaul",
+      "version": "*"
+    },
+    {
+      "modid": "mr_dungeons_andtavernswoodlandmansionreplacement",
+      "version": "*"
+    },
+    {
+      "modid": "offroad",
+      "version": "*"
+    },
+    {
+      "modid": "openloader",
+      "version": "*"
+    },
+    {
+      "modid": "particlerain",
+      "version": "*"
+    },
+    {
+      "modid": "patience",
+      "version": "*"
+    },
+    {
+      "modid": "ponder",
+      "version": "*"
+    },
+    {
+      "modid": "prickle",
+      "version": "*"
+    },
+    {
+      "modid": "pride",
+      "version": "*"
+    },
+    {
+      "modid": "puffish_biome_dither",
+      "version": "*"
+    },
+    {
+      "modid": "redomesticate",
+      "version": "*"
+    },
+    {
+      "modid": "reducedores",
+      "version": "*"
+    },
+    {
+      "modid": "sable",
+      "version": "*"
+    },
+    {
+      "modid": "sablecompanion",
+      "version": "*"
+    },
+    {
+      "modid": "sabledynlights",
+      "version": "*"
+    },
+    {
+      "modid": "sfcr",
+      "version": "*"
+    },
+    {
+      "modid": "shortstacks",
+      "version": "*"
+    },
+    {
+      "modid": "simple_snowy_fix",
+      "version": "*"
+    },
+    {
+      "modid": "simpledaylengthextender",
+      "version": "*"
+    },
+    {
+      "modid": "simpleradio",
+      "version": "*"
+    },
+    {
+      "modid": "simulated",
+      "version": "*"
+    },
+    {
+      "modid": "snowrealmagic",
+      "version": "*"
+    },
+    {
+      "modid": "spruceui",
+      "version": "*"
+    },
+    {
+      "modid": "stonycliffs",
+      "version": "*"
+    },
+    {
+      "modid": "supplementaries",
+      "version": "*"
+    },
+    {
+      "modid": "terralith",
+      "version": "*"
+    },
+    {
+      "modid": "terralith_no_structures",
+      "version": "*"
+    },
+    {
+      "modid": "tesseract_api",
+      "version": "*"
+    },
+    {
+      "modid": "tgu_hgd",
+      "version": "*"
+    },
+    {
+      "modid": "trimmed",
+      "version": "*"
+    },
+    {
+      "modid": "veil",
+      "version": "*"
+    },
+    {
+      "modid": "vista",
+      "version": "*"
+    },
+    {
+      "modid": "voicechat",
+      "version": "*"
+    },
+    {
+      "modid": "voicechat_api",
+      "version": "*"
+    },
+    {
+      "modid": "walkablerails",
+      "version": "*"
+    },
+    {
+      "modid": "yet_another_config_lib_v3",
+      "version": "*"
+    },
+    {
+      "modid": "yumi_mc_core",
+      "version": "*"
+    }
+  ],
+  "files": [
+    {
+      "name": "abridged-2.0.2-neoforge-21.1.jar",
+      "sha256": "e346909876d72c9f14b5b9dcd4a3653fa850cac5b45be8a94fc222079fe2710d"
+    },
+    {
+      "name": "alexsmobsup-0.2.6-neoforge-1.21.1.jar",
+      "sha256": "9eced88788e90c7f9772d92a68ded30d31b666797f8c934052361b2b8b4f6547"
+    },
+    {
+      "name": "amendments-neoforge-1.21-2.1.2.jar",
+      "sha256": "bae0e1bbcc0d56d068debcae234bd5aff153b6668a1141a06928add06faeec22"
+    },
+    {
+      "name": "architectury-13.0.8-neoforge.jar",
+      "sha256": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee"
+    },
+    {
+      "name": "backpacks-0.4.2.jar",
+      "sha256": "a3fa4fa50a6d99ca76637aa20a1ee97756f9419da5351530c9aa77eecbbbd39e"
+    },
+    {
+      "name": "bettersparsestructures-1.4.0.2.jar",
+      "sha256": "33ecd56d196ed16879191946c9b06108d995685838af429b87c900cd1dbb0a3d"
+    },
+    {
+      "name": "break_my_fall-neoforge-1.21.1-1.0.0.jar",
+      "sha256": "3fd1b6ad9bfd84d4437fe9c30c4b8030f77980e0bcf484fcc3f4a05cf3b6a0d3"
+    },
+    {
+      "name": "caveore-1.21.1-4.0.jar",
+      "sha256": "5301e0c153503f35b374f2f5f5233e5fa45ebd4f41d37867a8f45871af076c46"
+    },
+    {
+      "name": "citadelup-0.1.6-neoforge-1.21.1.jar",
+      "sha256": "fb3d17543797a301fc68282daa27b6ad424efcc67a6de2fb724dfae7e7858235"
+    },
+    {
+      "name": "cloth-config-15.0.140-neoforge.jar",
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
+    },
+    {
+      "name": "Continents_26.1_v1.1.13.jar",
+      "sha256": "a9fccccfd3516181538290f1e8df4e47e794ed69c4f0b26aa7d72b46cf85eb7e"
+    },
+    {
+      "name": "create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "name": "create-aeronautics-bundled-1.21.1-1.3.0.jar",
+      "sha256": "482c90e0e6fe72f33fe7abb079e5fda581cd660ee53c38c44448a64283e1044c"
+    },
+    {
+      "name": "cupboard-1.21.1-3.8.jar",
+      "sha256": "722847521c1f9bae079bd3ec1a70b187c3186e71247ddf1182c0ea498cdec067"
+    },
+    {
+      "name": "Cyberspace 4.1.1 (NF1.21.1).jar",
+      "sha256": "a0830aff54325186e85ea53685c6a0f40aa9663cb558bf880c9f00be2b8a2490"
+    },
+    {
+      "name": "DnT-ancient-city-overhaul-v2 [NeoForge].jar",
+      "sha256": "890882ec1239fff1cd5cc5f1da1fe4be98a31e748d418220bee5f2b9f3d8fd91"
+    },
+    {
+      "name": "DnT-desert-temple-replacement-v1.2 [NeoForge].jar",
+      "sha256": "a44e7d0ddac6a4045d2c6bd4791eba97f21e7fa8de9eb4062b0f995b92d6485b"
+    },
+    {
+      "name": "DnT-end-castle-standalone-v1.1 [NeoForge].jar",
+      "sha256": "729735835940da392805686070b291d0969702c7e182a4dd96cba7160d7048af"
+    },
+    {
+      "name": "DnT-jungle-temple-replacement-v1.2 [NeoForge].jar",
+      "sha256": "18f59097d3e8be9ad3826a8105e90fb749b3fe896f502a1cc7408817369b1d7e"
+    },
+    {
+      "name": "DnT-nether-fortress-overhaul-v2.4 [NeoForge].jar",
+      "sha256": "cfa79be379c70f993786bb068e3f7a7864a5037e1a5e48dfbb2aed62feec73d7"
+    },
+    {
+      "name": "DnT-ocean-monument-replacement-v1.2 [NeoForge].jar",
+      "sha256": "bdc4cfcc780bb27e674d999532f5626252f563e49ba3a056320d853124127a90"
+    },
+    {
+      "name": "DnT-pillager-outpost-overhaul-v2.2 [NeoForge].jar",
+      "sha256": "dc776b9c27d1fa3fe8662d001c9bbc39b193d3dab544d8f42390b8c46b9b22de"
+    },
+    {
+      "name": "DnT-stronghold-overhaul-v2.1.f [NeoForge].jar",
+      "sha256": "aded59a9f4a00c2614bc100af18ae9da420b2f9a12c192c5dd998efacc124f90"
+    },
+    {
+      "name": "DnT-swamp-hut-overhaul-v2 [NeoForge].jar",
+      "sha256": "995978ec1916450568b3639ffbc8ae5e674329b5c9734786896b98114913631b"
+    },
+    {
+      "name": "DnT-woodland-mansion-replacement-v1.2 [NeoForge].jar",
+      "sha256": "27496934f832f92a1c4f099bb2fe54808ed7ab3d84316cd955cfebbe0eb24b3e"
+    },
+    {
+      "name": "dungeons-and-taverns-v4.4.4 [NeoForge].jar",
+      "sha256": "1db28e89e0cb76aebe9e40955d1866e8ac1779575d15c2a1e250ac804a762d05"
+    },
+    {
+      "name": "dynamicsurroundings-neoforge-1.21.1-0.4.2.jar",
+      "sha256": "dae59dceb749957fcd9cb589e0cab5ef60f2e6422002dd490ba3111b6eb4eaff"
+    },
+    {
+      "name": "enderscape-neoforge-1.0.9+mc1.21.1.jar",
+      "sha256": "1caf18aa7b8385ac83d4d700f7d48cc1c3aeed321550a7204cb80a1493c1809a"
+    },
+    {
+      "name": "endrem-neoforge-1.21.X-6.0.2.jar",
+      "sha256": "f15cb30b32263410641c54ae6602a8bb8f00bc3cb57961c6b9941529cab0798d"
+    },
+    {
+      "name": "exposure-neoforge-1.21.1-1.9.18.jar",
+      "sha256": "674c537a99f69b2bae53521c95dae59bc5f4eb2eb15418eec0ecbaf36b53d888"
+    },
+    {
+      "name": "FarmersDelight-1.21.1-1.3.2.jar",
+      "sha256": "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7"
+    },
+    {
+      "name": "ferritecore-7.0.3-neoforge.jar",
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
+    },
+    {
+      "name": "flerovium-neoforge-1.21.1-1.1.1-all.jar",
+      "sha256": "2ceac9a74e4f715e242ea710a7e5e226601efc0b00aae6ad0d55ccbd9fb6bc00"
+    },
+    {
+      "name": "geckolib-neoforge-1.21.1-4.9.1.jar",
+      "sha256": "38c73035d1e8c143610fa76550b0472ea46f8b75fcaf2a14574ebf47517b8d02"
+    },
+    {
+      "name": "guideme-21.1.16.jar",
+      "sha256": "7938843929b065050375d7585398c9a478ae92a8f543ee6594161245750fd420"
+    },
+    {
+      "name": "incision-1.0.11-neoforge-1.21.1.jar",
+      "sha256": "8872e5f72e153d8e6a866e32eac140351e189d81c312da0c7831cf4f54f81058"
+    },
+    {
+      "name": "jei-1.21.1-neoforge-19.27.0.343.jar",
+      "sha256": "137f60018968a50c6f00e3a8ca9be790391792d2f3e6eff66237f2e9b3bc1353"
+    },
+    {
+      "name": "joyofpainting-1.21.1-NeoForge-1.0.2.jar",
+      "sha256": "9ab8537af863fda3dccf7dae1afcccbe0220c7011d27698bd714eb57a0470847"
+    },
+    {
+      "name": "Kiwi-1.21.1-NeoForge-15.8.4.jar",
+      "sha256": "567cef494357c952cb9f83477ba55e14969fa561384683960872f101fcaaa447"
+    },
+    {
+      "name": "lambdynamiclights-4.8.10+1.21.1.jar",
+      "sha256": "94e955443ce3817f798c74cbbbb4973e7b55c8b6dec12808b9378e74376b2eb9"
+    },
+    {
+      "name": "lexiconfig-neoforge-1.4.21-novel.jar",
+      "sha256": "0718d9695b5b73b7d3bc0dcf9c791499a5d5747e32f43ec3d272de4a971483ba"
+    },
+    {
+      "name": "lithostitched-1.7.12-neoforge-21.1.jar",
+      "sha256": "e18cae8aaef95f7058a16c05705c6e78a4b33a00bcf9189e96ed8a8785fb9647"
+    },
+    {
+      "name": "little-big-redstone-1.9.0-1.21.1.jar",
+      "sha256": "7323d45481b73f88b626f3a3ef682d952ac4e5bb4e917b3715e06b7e137db08c"
+    },
+    {
+      "name": "modwhitelist-1.21.1-2.0.0.jar",
+      "sha256": "af8937dc48de1bd7049dbf46eae7bbf1019f5d6718f6a64c5a9bd7ccbaf07aa1"
+    },
+    {
+      "name": "moonlight-neoforge-1.21.1-3.0.20.jar",
+      "sha256": "4f787e33ca53e44824987cda208fd9c85ddb6b297a681222c66323ea6549b3ee"
+    },
+    {
+      "name": "more_darkness-neoforge-1.21.1-1.0.0.jar",
+      "sha256": "dabaa9b16d688e577620e7cab6a3b7a1c27bd4505da078fd5c83eb1aa9381a8d"
+    },
+    {
+      "name": "OpenLoader-neoforge-1.21.1-21.1.5.jar",
+      "sha256": "c0becabbb2d45c254e959d3a26a0237dacdfccb7cde85de98c4b863057e842ff"
+    },
+    {
+      "name": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "sha256": "ef835ede1d24ba24371f1d77520a66c8010adf8c5f538a54099a14b13ae2e307"
+    },
+    {
+      "name": "patience-2.2.3.jar",
+      "sha256": "333328f4b70fc4716123ee4ec8c86ac645ac7c61b308438726d06c49dcc1f806"
+    },
+    {
+      "name": "prickle-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
+    },
+    {
+      "name": "puffish_biome_dither-1.0.0-1.21-neoforge.jar",
+      "sha256": "6c58141b92f0af964cbf9cca0a7c41eab8e53ed3ed907c45857f562c53d91dee"
+    },
+    {
+      "name": "redomesticate-neoforge-1.21.1-1.9.0.jar",
+      "sha256": "e66a712a25874eae872bd8fddd03d4e8ded5699ad0c99441bbcfd13619579f24"
+    },
+    {
+      "name": "reducedores-1.21.x-1.1.jar",
+      "sha256": "fed8e470354497df0706edb67b5527b92986a2372405b551b8f64c1587a52757"
+    },
+    {
+      "name": "sable-dynamic-lights-1.21.1-1.0.0.jar",
+      "sha256": "0c43172cde9970abccdd57e8e007e820719f155a5438b35491fef3599b66e37f"
+    },
+    {
+      "name": "sable-neoforge-1.21.1-2.0.3.jar",
+      "sha256": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279"
+    },
+    {
+      "name": "sfcr-1.9.3+1.21.1-neoforge.jar",
+      "sha256": "7178ea0635daaece504c93fcb1254ea663e917d97e9336f58414e8053db2d81b"
+    },
+    {
+      "name": "shortstacks-1.2.2.jar",
+      "sha256": "14ec86e210d165b11e8f6f32a58a5c8bd24058e8dafe692e537ab090cb04b884"
+    },
+    {
+      "name": "simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar",
+      "sha256": "2d43c17f4cf3d6fa4db4ac26a29af169b5225b22110e75df2ad4fe28c60f42ad"
+    },
+    {
+      "name": "SimpleDayLengthExtender-1.2.2-NeoForge-1.21.1.jar",
+      "sha256": "9ade42f85176436a66e57a560dcbfcd24a464bd657f4f4fe9e353387d8034303"
+    },
+    {
+      "name": "simpleradio-neoforge-1.21.1-4.5.7.9.jar",
+      "sha256": "9a1a46cfdfb4c876de48a49149ae30879a6b23831f415cee76fc3e86e1c84ac8"
+    },
+    {
+      "name": "SnowRealMagic-1.21.1-NeoForge-12.2.2.jar",
+      "sha256": "b82fb35b7389d472e074fbc560eb7fbdf9522733f9d11a34036b176fec95a76c"
+    },
+    {
+      "name": "Stony Cliffs FML v1.1.2.jar",
+      "sha256": "f07a2db60d1e3dea51bd640fae23277df64239a09b45e919be0a47a31bec72c3"
+    },
+    {
+      "name": "supplementaries-neoforge-1.21.1-3.7.4.jar",
+      "sha256": "830d08be0ffe71d730ee13ad2925f32657664923fbaa78fcbcf6a0094f275bbd"
+    },
+    {
+      "name": "Terralith_1.21.x_v2.6.2.jar",
+      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546"
+    },
+    {
+      "name": "Terralith_No_Structures_v1.1.jar",
+      "sha256": "9855efcfcf09902cfce4f88cc6381852e294d9cb0427fc9904980abd4aa563ac"
+    },
+    {
+      "name": "tesseract-api-neoforge-1.12.4-1.21.1.jar",
+      "sha256": "f26f82c09f71c11eeb30c58cd54b34b8a823a730027d0ca7408f6cf427890f19"
+    },
+    {
+      "name": "tgu_hgd-1.0.6-neoforge-1.21.1.jar",
+      "sha256": "c69552d370f174bd5f6913f12698c6e1a6a285004e58c7ca0f6dacdcb3a926dc"
+    },
+    {
+      "name": "trimmed-neo-1.21-3.0.0.jar",
+      "sha256": "06ad8575ab8bb3eb367a57bd6c9253eb466ffc7f5f23bd31a2c0312f48ad883f"
+    },
+    {
+      "name": "vista-neoforge-1.21.1-4.5.0.jar",
+      "sha256": "a592f1bfa646664dfa7e2e8a6f3514c166f8e22681df30de01a01acaaa964f24"
+    },
+    {
+      "name": "voicechat-neoforge-1.21.1-2.6.20.jar",
+      "sha256": "1e387494cec156553557d0996cee6dbf6ca606e371782f723ff08d3e9905fe3c"
+    },
+    {
+      "name": "Voiceless Survival-1.21.1-neoforge-2.0.1.jar",
+      "sha256": "7e837446debc95e14f39fa6d021aae6f244b819d29a7f0955dab78c6de749564"
+    },
+    {
+      "name": "walkablerails-1.0.0+1.21.1-neoforge.jar",
+      "sha256": "57cd7b18c9d3773ba3a9433ca35e8ecf842ce575b549196da0eade32b15f3bdb"
+    },
+    {
+      "name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
+    }
+  ]
+}

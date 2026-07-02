@@ -1,0 +1,22 @@
+{
+  "mods": [
+    {
+      "modid": "antixray",
+      "version": "*"
+    },
+    {
+      "modid": "toofast",
+      "version": "*"
+    }
+  ],
+  "files": [
+    {
+      "name": "antixray-neoforge-1.4.8+1.21.1.jar",
+      "sha256": "5420a6ff3bc2d53db330583e09d6b5bf43bdd67e2aea2a5f43add3c9bbd5104f"
+    },
+    {
+      "name": "toofast-1.21.0-0.4.3.6.jar",
+      "sha256": "54852c9d395b4dc870d1c8a587e4fade9fb05474540ae4d3dd196663dd6a6114"
+    }
+  ]
+}
